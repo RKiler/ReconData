@@ -1,0 +1,10 @@
+FUZZ,url,redirectlocation,position,status_code,content_length,content_words,content_lines,content_type,duration,resultfile
+it_it,https://insideman.knowbe4.com/it_it,,9926,403,4517,620,94,text/html; charset=UTF-8,20.903244ms,
+refer,https://insideman.knowbe4.com/refer,,15140,403,4517,620,94,text/html; charset=UTF-8,34.73287ms,
+scratch,https://insideman.knowbe4.com/scratch,,15963,403,4517,620,94,text/html; charset=UTF-8,23.061283ms,
+selenium,https://insideman.knowbe4.com/selenium,,16134,403,4517,620,94,text/html; charset=UTF-8,18.918713ms,
+testseite,https://insideman.knowbe4.com/testseite,,17957,403,4517,620,94,text/html; charset=UTF-8,30.624986ms,
+usercpignorelist,https://insideman.knowbe4.com/usercpignorelist,,18878,403,4517,620,94,text/html; charset=UTF-8,17.133053ms,
+usercp,https://insideman.knowbe4.com/usercp,,18875,403,4517,620,94,text/html; charset=UTF-8,26.873215ms,
+userpics,https://insideman.knowbe4.com/userpics,,18907,403,4517,620,94,text/html; charset=UTF-8,24.186553ms,
+xmls,https://insideman.knowbe4.com/xmls,,20171,403,4517,620,94,text/html; charset=UTF-8,23.598686ms,
