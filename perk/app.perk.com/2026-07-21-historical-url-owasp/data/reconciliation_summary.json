@@ -1,0 +1,29 @@
+{
+  "candidate_urls": 137,
+  "route_templates": 68,
+  "isolated_requests": 274,
+  "anonymous_requests": 137,
+  "authenticated_requests": 137,
+  "get_requests": 220,
+  "head_requests": 54,
+  "status_counts": {
+    "200": 238,
+    "202": 4,
+    "301": 2,
+    "401": 2,
+    "404": 26,
+    "405": 2
+  },
+  "outcome_counts": {
+    "auth_control_enforced": 2,
+    "blocked_waf": 2,
+    "dead_historical_asset": 13,
+    "method_not_allowed": 1,
+    "no_data_bearing_response": 1,
+    "public_client_config_only": 1,
+    "safe_method_only": 27,
+    "safe_substitution_only": 2,
+    "spa_shell_only": 88
+  },
+  "confirmed_new_reportable_findings": 0
+}

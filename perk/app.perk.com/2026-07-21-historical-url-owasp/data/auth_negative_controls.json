@@ -1,0 +1,108 @@
+{
+  "controls": [
+    {
+      "content_type": "text/html; charset=utf-8",
+      "control": "missing",
+      "json_shape": null,
+      "length": 12,
+      "status": 401
+    },
+    {
+      "content_type": "application/json",
+      "control": "tampered_signature",
+      "json_shape": {
+        "errors": {
+          "first_shape": {
+            "can_retry_booking": "bool",
+            "category": "str",
+            "code": "str",
+            "detail": "str",
+            "message": "str",
+            "offer_id": "str",
+            "payload": {
+              "code": "max_depth",
+              "message": "max_depth"
+            },
+            "provider": "str",
+            "severity": "str",
+            "uid": "str"
+          },
+          "length": 2,
+          "type": "array"
+        },
+        "status": "str",
+        "timestamp": "NoneType",
+        "transaction_id": "NoneType",
+        "warnings": "NoneType"
+      },
+      "length": 712,
+      "status": 401
+    },
+    {
+      "content_type": "application/json",
+      "control": "alg_none",
+      "json_shape": {
+        "errors": {
+          "first_shape": {
+            "can_retry_booking": "bool",
+            "category": "str",
+            "code": "str",
+            "detail": "str",
+            "message": "str",
+            "offer_id": "str",
+            "payload": {
+              "code": "max_depth",
+              "message": "max_depth"
+            },
+            "provider": "str",
+            "severity": "str",
+            "uid": "str"
+          },
+          "length": 2,
+          "type": "array"
+        },
+        "status": "str",
+        "timestamp": "NoneType",
+        "transaction_id": "NoneType",
+        "warnings": "NoneType"
+      },
+      "length": 712,
+      "status": 401
+    },
+    {
+      "content_type": "application/json",
+      "control": "valid_authorization_only",
+      "json_shape": {
+        "refresh": "str",
+        "token": "str",
+        "yk_token": "NoneType"
+      },
+      "length": 2375,
+      "status": 200
+    }
+  ],
+  "jwt_header": {
+    "alg": "RS256",
+    "typ": "JWT"
+  },
+  "set_cookie_attributes": [
+    {
+      "domain": null,
+      "httponly": true,
+      "max_age_present": true,
+      "name": "refresh",
+      "path": "/",
+      "samesite": "strict",
+      "secure": true
+    },
+    {
+      "domain": null,
+      "httponly": true,
+      "max_age_present": true,
+      "name": "sessionid",
+      "path": "/",
+      "samesite": "Lax",
+      "secure": true
+    }
+  ]
+}

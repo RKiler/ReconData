@@ -1,0 +1,3178 @@
+{
+  "cors": [
+    {
+      "elapsed_ms": 546,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "anonymous",
+      "path": "/api-token-session/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:02Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 217,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "cookie_only",
+      "path": "/api-token-session/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:03Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 445,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "authorization_only",
+      "path": "/api-token-session/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:04Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 182,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "full",
+      "path": "/api-token-session/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:04Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 204,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "12",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "set_cookie_names": [
+          "Max-Age",
+          "sessionid"
+        ],
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "path": "/api-token-session/",
+      "sample_sha256": "d089c8a9fc28e4e50223eb38c9409e362521be9380a37341304fbac7a4cd9e5f",
+      "sampled_length": 12,
+      "status": 401,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:05Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 250,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "1770",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "set_cookie_names": [
+          "Max-Age",
+          "refresh",
+          "sessionid"
+        ],
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie, Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "refresh": "str",
+          "token": "str",
+          "yk_token": "NoneType"
+        },
+        "token_claims": {
+          "claim_names": [
+            "account_id",
+            "actor_type",
+            "auth_method",
+            "exp",
+            "login_method",
+            "roles",
+            "user_id"
+          ],
+          "roles_count": 1,
+          "values_redacted": true
+        }
+      },
+      "method": "GET",
+      "mode": "cookie_only",
+      "path": "/api-token-session/",
+      "sample_sha256": "358f969cd9d45b07390cfce5db52f37800f8be9cd9f05fbcf10b05ee6f4dc6cf",
+      "sampled_length": 2375,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:06Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 246,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "1744",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "set_cookie_names": [
+          "Max-Age",
+          "refresh",
+          "sessionid"
+        ],
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie, Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "refresh": "str",
+          "token": "str",
+          "yk_token": "NoneType"
+        },
+        "token_claims": {
+          "claim_names": [
+            "account_id",
+            "actor_type",
+            "auth_method",
+            "exp",
+            "login_method",
+            "roles",
+            "user_id"
+          ],
+          "roles_count": 1,
+          "values_redacted": true
+        }
+      },
+      "method": "GET",
+      "mode": "authorization_only",
+      "path": "/api-token-session/",
+      "sample_sha256": "6e26a42924a2191f3f6fdf28f51cfaff85f91daab71a77d387f1c77b09b4c8ab",
+      "sampled_length": 2375,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:06Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 253,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "1819",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "set_cookie_names": [
+          "Max-Age",
+          "refresh",
+          "sessionid"
+        ],
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie, Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "refresh": "str",
+          "token": "str",
+          "yk_token": "NoneType"
+        },
+        "token_claims": {
+          "claim_names": [
+            "account_id",
+            "actor_type",
+            "auth_method",
+            "exp",
+            "login_method",
+            "roles",
+            "user_id"
+          ],
+          "roles_count": 1,
+          "values_redacted": true
+        }
+      },
+      "method": "GET",
+      "mode": "full",
+      "path": "/api-token-session/",
+      "sample_sha256": "738a8a6ec8f95fbec764e9f92671b055fe29d364402bd8c258377f6118b2c4dc",
+      "sampled_length": 2375,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:07Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api-token-session/"
+    },
+    {
+      "elapsed_ms": 180,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "anonymous",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:07Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 440,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "cookie_only",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:08Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 183,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "authorization_only",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:09Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 179,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "full",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:09Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 183,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "content-length": "58",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "detail": "str"
+        }
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "dbff0849bc109eee7f9b7b1fe12e40fc8add21823b2f1fb600b37f620cbd7862",
+      "sampled_length": 58,
+      "status": 401,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:10Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 239,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "content-length": "1123",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie, Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "redirect_to": {
+          "has_query": false,
+          "host": "app.perk.com",
+          "path": "/api/identity/perk-seamless-login/",
+          "scheme": "https"
+        },
+        "shape": {
+          "redirect_to": "str",
+          "token": "str"
+        },
+        "token_claims": {
+          "claim_names": [
+            "account_id",
+            "actor_type",
+            "auth_method",
+            "exp",
+            "login_method",
+            "roles",
+            "user_id"
+          ],
+          "roles_count": 1,
+          "values_redacted": true
+        }
+      },
+      "method": "GET",
+      "mode": "cookie_only",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "6a0a201e025a76a899c8243d07c2be3b2d31ddd22fc4320ffabb79447f0f22a1",
+      "sampled_length": 1334,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:11Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 222,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "content-length": "1080",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie, Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "redirect_to": {
+          "has_query": false,
+          "host": "app.perk.com",
+          "path": "/api/identity/perk-seamless-login/",
+          "scheme": "https"
+        },
+        "shape": {
+          "redirect_to": "str",
+          "token": "str"
+        },
+        "token_claims": {
+          "claim_names": [
+            "account_id",
+            "actor_type",
+            "auth_method",
+            "exp",
+            "login_method",
+            "roles",
+            "user_id"
+          ],
+          "roles_count": 1,
+          "values_redacted": true
+        }
+      },
+      "method": "GET",
+      "mode": "authorization_only",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "7ee32e80b5fa2755c38b96b770b0cacf82a52678d440aa130c57acdb3583d56d",
+      "sampled_length": 1334,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:11Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 228,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "content-length": "1111",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "server": "gunicorn",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie, Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "redirect_to": {
+          "has_query": false,
+          "host": "app.perk.com",
+          "path": "/api/identity/perk-seamless-login/",
+          "scheme": "https"
+        },
+        "shape": {
+          "redirect_to": "str",
+          "token": "str"
+        },
+        "token_claims": {
+          "claim_names": [
+            "account_id",
+            "actor_type",
+            "auth_method",
+            "exp",
+            "login_method",
+            "roles",
+            "user_id"
+          ],
+          "roles_count": 1,
+          "values_redacted": true
+        }
+      },
+      "method": "GET",
+      "mode": "full",
+      "path": "/api/identity/perk-seamless-login/",
+      "sample_sha256": "84c783345b11331784735ab0e3c150c5b734c3b5778f3d0e080842c5ac449b13",
+      "sampled_length": 1334,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:12Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/identity/perk-seamless-login/"
+    },
+    {
+      "elapsed_ms": 179,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "anonymous",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:12Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 179,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "cookie_only",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:13Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 178,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "authorization_only",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:14Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 178,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-length": "0",
+        "content-type": "text/html; charset=utf-8",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "full",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sampled_length": 0,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:14Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 190,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, HEAD, OPTIONS",
+        "content-length": "2",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "first_shape": null,
+          "length": 0,
+          "type": "array"
+        }
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sampled_length": 2,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:15Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 202,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, HEAD, OPTIONS",
+        "content-length": "2",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "first_shape": null,
+          "length": 0,
+          "type": "array"
+        }
+      },
+      "method": "GET",
+      "mode": "cookie_only",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sampled_length": 2,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:15Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 203,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, HEAD, OPTIONS",
+        "content-length": "2",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "first_shape": null,
+          "length": 0,
+          "type": "array"
+        }
+      },
+      "method": "GET",
+      "mode": "authorization_only",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sampled_length": 2,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:16Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 228,
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "allow": "GET, HEAD, OPTIONS",
+        "content-length": "2",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "json_analysis": {
+        "json": true,
+        "shape": {
+          "first_shape": null,
+          "length": 0,
+          "type": "array"
+        }
+      },
+      "method": "GET",
+      "mode": "full",
+      "path": "/api/v2/federated-login-redirect/",
+      "sample_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sampled_length": 2,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:17Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/"
+    },
+    {
+      "elapsed_ms": 467,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "application/xml",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "anonymous",
+      "path": "/config/env.js",
+      "sample_sha256": "a824bc7739e226e1b40ea0f8c4e4f4c6f796fc3b4abfa6e9abe3bd119a30d938",
+      "sampled_length": 111,
+      "status": 403,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:18Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 53,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "application/xml",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "cookie_only",
+      "path": "/config/env.js",
+      "sample_sha256": "a824bc7739e226e1b40ea0f8c4e4f4c6f796fc3b4abfa6e9abe3bd119a30d938",
+      "sampled_length": 111,
+      "status": 403,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:18Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 75,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "application/xml",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "authorization_only",
+      "path": "/config/env.js",
+      "sample_sha256": "a824bc7739e226e1b40ea0f8c4e4f4c6f796fc3b4abfa6e9abe3bd119a30d938",
+      "sampled_length": 111,
+      "status": 403,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:18Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 58,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "application/xml",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "OPTIONS",
+      "mode": "full",
+      "path": "/config/env.js",
+      "sample_sha256": "a824bc7739e226e1b40ea0f8c4e4f4c6f796fc3b4abfa6e9abe3bd119a30d938",
+      "sampled_length": 111,
+      "status": 403,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:19Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 521,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "text/javascript",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "path": "/config/env.js",
+      "sample_sha256": "e847136143bc319cae21147cf0f84b5088d1c94766fb11385e9a589837c65732",
+      "sampled_length": 4238,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:20Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 56,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "text/javascript",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "GET",
+      "mode": "cookie_only",
+      "path": "/config/env.js",
+      "sample_sha256": "e847136143bc319cae21147cf0f84b5088d1c94766fb11385e9a589837c65732",
+      "sampled_length": 4238,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:20Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 57,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "text/javascript",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "GET",
+      "mode": "authorization_only",
+      "path": "/config/env.js",
+      "sample_sha256": "e847136143bc319cae21147cf0f84b5088d1c94766fb11385e9a589837c65732",
+      "sampled_length": 4238,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:21Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    },
+    {
+      "elapsed_ms": 51,
+      "headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "text/javascript",
+        "server": "AmazonS3",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "json_analysis": {
+        "json": false
+      },
+      "method": "GET",
+      "mode": "full",
+      "path": "/config/env.js",
+      "sample_sha256": "e847136143bc319cae21147cf0f84b5088d1c94766fb11385e9a589837c65732",
+      "sampled_length": 4238,
+      "status": 200,
+      "test": "cors",
+      "timestamp": "2026-07-21T23:40:21Z",
+      "truncated": false,
+      "url": "https://app.perk.com/config/env.js"
+    }
+  ],
+  "current_assets": {
+    "assets": [
+      {
+        "analysis": {
+          "bytes": 4238,
+          "endpoint_strings": [
+            "/api/plan/flights"
+          ],
+          "secret_candidates": [],
+          "sha256": "e847136143bc319cae21147cf0f84b5088d1c94766fb11385e9a589837c65732",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [],
+          "url": "https://app.perk.com/config/env.js"
+        },
+        "request": {
+          "elapsed_ms": 54,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "e847136143bc319cae21147cf0f84b5088d1c94766fb11385e9a589837c65732",
+          "sampled_length": 4238,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:30Z",
+          "truncated": false,
+          "url": "https://app.perk.com/config/env.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/001_ebd09bdfc585.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1133,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "0c8f1a0ff53ec66219f368b05eaff4204d0e0e059521bef3dcb9325f836e915c",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "NoMatch-B9L5TVqk.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/NoMatch-B9L5TVqk.js"
+        },
+        "request": {
+          "elapsed_ms": 538,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "0c8f1a0ff53ec66219f368b05eaff4204d0e0e059521bef3dcb9325f836e915c",
+          "sampled_length": 1133,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:31Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/NoMatch-B9L5TVqk.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/002_a4f4589c98a2.js"
+      },
+      {
+        "analysis": {
+          "bytes": 137,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "bba3e57ce427b667d913df608c5c4ae17791eccf06f5ed0561362e7408e6bdca",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "api_prefix-CREWn72Y.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/api_prefix-CREWn72Y.js"
+        },
+        "request": {
+          "elapsed_ms": 66,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "137",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "bba3e57ce427b667d913df608c5c4ae17791eccf06f5ed0561362e7408e6bdca",
+          "sampled_length": 137,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:31Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/api_prefix-CREWn72Y.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/003_5c8cafa890a6.js"
+      },
+      {
+        "analysis": {
+          "bytes": 591,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "6f8e615eca25439e9b9a9c3d3e189c0b68a3ac101c2be76b856668cfeacea4f7",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "callback-BTeoipOE-DXHMMYL9.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/callback-BTeoipOE-DXHMMYL9.js"
+        },
+        "request": {
+          "elapsed_ms": 76,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "591",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "6f8e615eca25439e9b9a9c3d3e189c0b68a3ac101c2be76b856668cfeacea4f7",
+          "sampled_length": 591,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:32Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/callback-BTeoipOE-DXHMMYL9.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/004_dd6cdbc142d3.js"
+      },
+      {
+        "analysis": {
+          "bytes": 591,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "ed81d9b1d465e676569e200bee7bfe7996044daf4356475867855f4d68fd7088",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "callback-DA3ZAz_H-DXHMMYL9.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/callback-DA3ZAz_H-DXHMMYL9.js"
+        },
+        "request": {
+          "elapsed_ms": 72,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "591",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "ed81d9b1d465e676569e200bee7bfe7996044daf4356475867855f4d68fd7088",
+          "sampled_length": 591,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:33Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/callback-DA3ZAz_H-DXHMMYL9.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/005_cc7539fd8035.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1216,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "101087c385ddfea7c37eb72790fd5aa7a3d647e85dc24171c830034ed27d3c90",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [],
+          "url": "https://app.perk.com/mfe-web/assets/chunk-CMxvf4Kt.js"
+        },
+        "request": {
+          "elapsed_ms": 493,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "101087c385ddfea7c37eb72790fd5aa7a3d647e85dc24171c830034ed27d3c90",
+          "sampled_length": 1216,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:34Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/chunk-CMxvf4Kt.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/006_6f492f46e4ff.js"
+      },
+      {
+        "analysis": {
+          "bytes": 746,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "85e396d3f8aaa1c4c717e0b739ed4e69e2974aeca71e3771fe4e632b068658b0",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "chunk-Dqa2HsxW-DwrjHvwf.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/chunk-Dqa2HsxW-DwrjHvwf.js"
+        },
+        "request": {
+          "elapsed_ms": 72,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "746",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "85e396d3f8aaa1c4c717e0b739ed4e69e2974aeca71e3771fe4e632b068658b0",
+          "sampled_length": 746,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:34Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/chunk-Dqa2HsxW-DwrjHvwf.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/007_1cc1e66d7242.js"
+      },
+      {
+        "analysis": {
+          "bytes": 107,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "7c0fc366a4a54c7f87449a93a12a8efac2bc90c7a33f3b1ab29b3fb1cd066284",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "config-CAD6LEIQ.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/config-CAD6LEIQ.js"
+        },
+        "request": {
+          "elapsed_ms": 504,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "107",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "7c0fc366a4a54c7f87449a93a12a8efac2bc90c7a33f3b1ab29b3fb1cd066284",
+          "sampled_length": 107,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:35Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/config-CAD6LEIQ.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/008_6af6da2624cd.js"
+      },
+      {
+        "analysis": {
+          "bytes": 62987,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "b0161e1d1a4e6e8b119097c22de00efeb003672bbc15c94b922b6d160dfdb952",
+          "sink_counts": {
+            "innerHTML": 3
+          },
+          "source_counts": {
+            "document.referrer": 1,
+            "localStorage": 1,
+            "location.search": 1,
+            "sessionStorage": 1
+          },
+          "source_maps": [
+            "core-kt6-lqXl-PG4f6zrS-CAd8TDgx.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/core-kt6-lqXl-PG4f6zrS-CAd8TDgx.js"
+        },
+        "request": {
+          "elapsed_ms": 67,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "b0161e1d1a4e6e8b119097c22de00efeb003672bbc15c94b922b6d160dfdb952",
+          "sampled_length": 62987,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:36Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/core-kt6-lqXl-PG4f6zrS-CAd8TDgx.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/009_2892385279b5.js"
+      },
+      {
+        "analysis": {
+          "bytes": 160,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "ce14a5d79a3ccf5b4ac9807b750f8ef836799cb52444dc4eadf2f5c736bffe33",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "debounce-CMb8f7wh-DfCJU094-rQEqLNYw.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/debounce-CMb8f7wh-DfCJU094-rQEqLNYw.js"
+        },
+        "request": {
+          "elapsed_ms": 77,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "160",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "ce14a5d79a3ccf5b4ac9807b750f8ef836799cb52444dc4eadf2f5c736bffe33",
+          "sampled_length": 160,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:36Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/debounce-CMb8f7wh-DfCJU094-rQEqLNYw.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/010_aad2f0b1c45a.js"
+      },
+      {
+        "analysis": {
+          "bytes": 20158,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "ae020eb7a8d7ad307676637ec915f9c6a0288112ad5c00a378d87761000018c8",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "dist-3bvAAOzT-S9baGHki.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/dist-3bvAAOzT-S9baGHki.js"
+        },
+        "request": {
+          "elapsed_ms": 87,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "ae020eb7a8d7ad307676637ec915f9c6a0288112ad5c00a378d87761000018c8",
+          "sampled_length": 20158,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:37Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/dist-3bvAAOzT-S9baGHki.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/011_e427054f30ce.js"
+      },
+      {
+        "analysis": {
+          "bytes": 547669,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "d31ef455a684f88dc9b1061e06d22a725d6819ffa359a655ae3cdd92ec3e8f7c",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "en-DTpcKFnD.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/en-DTpcKFnD.js"
+        },
+        "request": {
+          "elapsed_ms": 491,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "d31ef455a684f88dc9b1061e06d22a725d6819ffa359a655ae3cdd92ec3e8f7c",
+          "sampled_length": 547669,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:38Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/en-DTpcKFnD.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/012_1688cfb00c44.js"
+      },
+      {
+        "analysis": {
+          "bytes": 126341,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "911bb249ac6a859b3f85b09b49de0bf3dbe1722c2934c620cede7b77711a3853",
+          "sink_counts": {},
+          "source_counts": {
+            "document.referrer": 2,
+            "localStorage": 7
+          },
+          "source_maps": [
+            "esm-Cemll5RB.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/esm-Cemll5RB.js"
+        },
+        "request": {
+          "elapsed_ms": 66,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "911bb249ac6a859b3f85b09b49de0bf3dbe1722c2934c620cede7b77711a3853",
+          "sampled_length": 126341,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:39Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/esm-Cemll5RB.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/013_c2e43a4d6aa8.js"
+      },
+      {
+        "analysis": {
+          "bytes": 195,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "6d4dd7cb452077b525bb720d33cf9f28ce7337c4ec70d50abbc4d6ba96688dfa",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "featureFlagsContext-Byahl-nT.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/featureFlagsContext-Byahl-nT.js"
+        },
+        "request": {
+          "elapsed_ms": 56,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "195",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "6d4dd7cb452077b525bb720d33cf9f28ce7337c4ec70d50abbc4d6ba96688dfa",
+          "sampled_length": 195,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:39Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/featureFlagsContext-Byahl-nT.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/014_f2becac76f78.js"
+      },
+      {
+        "analysis": {
+          "bytes": 170,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "905e4277cb89ad7abac4783db547cd0923e9976accc43c7b3e8907d891d9bc04",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "gracefulDecodeURIComponent-BJbKwAXf-Cjfhr3Sm.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-BJbKwAXf-Cjfhr3Sm.js"
+        },
+        "request": {
+          "elapsed_ms": 55,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "170",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "905e4277cb89ad7abac4783db547cd0923e9976accc43c7b3e8907d891d9bc04",
+          "sampled_length": 170,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:40Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-BJbKwAXf-Cjfhr3Sm.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/015_bf8228952c77.js"
+      },
+      {
+        "analysis": {
+          "bytes": 170,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "eedbb1a7d656e3c56cccc731a80637ac832a88ca5be4208a138ccfdb37f1dc63",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "gracefulDecodeURIComponent-Cvf2cyTi-Cjfhr3Sm.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-Cvf2cyTi-Cjfhr3Sm.js"
+        },
+        "request": {
+          "elapsed_ms": 62,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "170",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "eedbb1a7d656e3c56cccc731a80637ac832a88ca5be4208a138ccfdb37f1dc63",
+          "sampled_length": 170,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:40Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-Cvf2cyTi-Cjfhr3Sm.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/016_ebf7b465e3df.js"
+      },
+      {
+        "analysis": {
+          "bytes": 340,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "14b16df555c787d86984008d3f9298a5c85861df2d3b9746141940d5cb1c9403",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "helpers-BeYjy2xY-C0BgA-mv.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/helpers-BeYjy2xY-C0BgA-mv.js"
+        },
+        "request": {
+          "elapsed_ms": 58,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "340",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "14b16df555c787d86984008d3f9298a5c85861df2d3b9746141940d5cb1c9403",
+          "sampled_length": 340,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:41Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/helpers-BeYjy2xY-C0BgA-mv.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/017_2b72ea00951d.js"
+      },
+      {
+        "analysis": {
+          "bytes": 161,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "0c435e75f96804d1971571465f9d6feccca949c2f01a52bbe363ce8769648233",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "helpers-CVBXS7-M-BInrIo76.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/helpers-CVBXS7-M-BInrIo76.js"
+        },
+        "request": {
+          "elapsed_ms": 62,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "161",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "0c435e75f96804d1971571465f9d6feccca949c2f01a52bbe363ce8769648233",
+          "sampled_length": 161,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:41Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/helpers-CVBXS7-M-BInrIo76.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/018_6f15822bde1d.js"
+      },
+      {
+        "analysis": {
+          "bytes": 238,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "70a080cc430833075107ee50e9bddc42028f806f06af2b5e2e65995747280dde",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "http_method-CyLVEiMb.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/http_method-CyLVEiMb.js"
+        },
+        "request": {
+          "elapsed_ms": 57,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "238",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "70a080cc430833075107ee50e9bddc42028f806f06af2b5e2e65995747280dde",
+          "sampled_length": 238,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:42Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/http_method-CyLVEiMb.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/019_72839583e74f.js"
+      },
+      {
+        "analysis": {
+          "bytes": 434529,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "fd7a7552efa3867702b65edbeab6d666f17d0fead032dc9180dddd01f34dab10",
+          "sink_counts": {},
+          "source_counts": {
+            "localStorage": 2
+          },
+          "source_maps": [
+            "icons-CY7K0_G0-D1K9kc0W.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/icons-CY7K0_G0-D1K9kc0W.js"
+        },
+        "request": {
+          "elapsed_ms": 1038,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "fd7a7552efa3867702b65edbeab6d666f17d0fead032dc9180dddd01f34dab10",
+          "sampled_length": 434529,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:44Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/icons-CY7K0_G0-D1K9kc0W.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/020_b0c20cf828a8.js"
+      },
+      {
+        "analysis": {
+          "bytes": 702801,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "ff8716f10172a7227f9304206c6a28d5144c5d73d3c7cc9900b1974e64f1f46c",
+          "sink_counts": {
+            "innerHTML": 17,
+            "postMessage": 6
+          },
+          "source_counts": {
+            "location.hash": 2,
+            "location.search": 1
+          },
+          "source_maps": [
+            "index-B5YxxhLs.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/index-B5YxxhLs.js"
+        },
+        "request": {
+          "elapsed_ms": 1045,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "ff8716f10172a7227f9304206c6a28d5144c5d73d3c7cc9900b1974e64f1f46c",
+          "sampled_length": 702801,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:45Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/index-B5YxxhLs.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/021_6753edaa1900.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1087,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "e0754a9a326ae1d8878ae66bdfb042180d0025385429cf3593da16936ddd2266",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "isObjectLike-rsRZdtvh.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/isObjectLike-rsRZdtvh.js"
+        },
+        "request": {
+          "elapsed_ms": 520,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "e0754a9a326ae1d8878ae66bdfb042180d0025385429cf3593da16936ddd2266",
+          "sampled_length": 1087,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:46Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/isObjectLike-rsRZdtvh.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/022_49affb34f5f7.js"
+      },
+      {
+        "analysis": {
+          "bytes": 4529,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "a40be4bfb6dd25ceb3f1e6a89e94bc46b03f96e7c99d2babfc27faf1d511269c",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "isTypedArray-C8M52DkF.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/isTypedArray-C8M52DkF.js"
+        },
+        "request": {
+          "elapsed_ms": 60,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "a40be4bfb6dd25ceb3f1e6a89e94bc46b03f96e7c99d2babfc27faf1d511269c",
+          "sampled_length": 4529,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:47Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/isTypedArray-C8M52DkF.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/023_d80ceb12ce8b.js"
+      },
+      {
+        "analysis": {
+          "bytes": 7937,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "e024c83e21f34f9ad56d6c743ed3e9a59387a44bb0ef50b919ac45d93c2a3c34",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "jsx-runtime-DVy0kmU9.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/jsx-runtime-DVy0kmU9.js"
+        },
+        "request": {
+          "elapsed_ms": 59,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "e024c83e21f34f9ad56d6c743ed3e9a59387a44bb0ef50b919ac45d93c2a3c34",
+          "sampled_length": 7937,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:47Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/jsx-runtime-DVy0kmU9.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/024_76f2bdcf6d5b.js"
+      },
+      {
+        "analysis": {
+          "bytes": 30757,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "c036fa941c4cd060c16db11da2f06dada70da52c01901d4eef3f3b0aa8145ee2",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "lib-BOCTBnhm.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/lib-BOCTBnhm.js"
+        },
+        "request": {
+          "elapsed_ms": 640,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "c036fa941c4cd060c16db11da2f06dada70da52c01901d4eef3f3b0aa8145ee2",
+          "sampled_length": 30757,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:49Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/lib-BOCTBnhm.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/025_6743826449b7.js"
+      },
+      {
+        "analysis": {
+          "bytes": 2505,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "3c50d2354414ba32159311f7890a728d585ab1c2655c98a976324582a1afbc5f",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "lit-localize-CUmeAeS2-CN_TKwXv.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/lit-localize-CUmeAeS2-CN_TKwXv.js"
+        },
+        "request": {
+          "elapsed_ms": 485,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "3c50d2354414ba32159311f7890a728d585ab1c2655c98a976324582a1afbc5f",
+          "sampled_length": 2505,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:50Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/lit-localize-CUmeAeS2-CN_TKwXv.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/026_8fe87cdfb98a.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1867,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "d1a021f7ddc311211bc2f686ec6ea7256ee18090c7f8f78940bd220a5d58b394",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "load-script-DBaQq7Kw-BhG84EvX.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/load-script-DBaQq7Kw-BhG84EvX.js"
+        },
+        "request": {
+          "elapsed_ms": 495,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "d1a021f7ddc311211bc2f686ec6ea7256ee18090c7f8f78940bd220a5d58b394",
+          "sampled_length": 1867,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:51Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/load-script-DBaQq7Kw-BhG84EvX.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/027_79eedb048e63.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1781,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "414ca766ba86cef8e6baba4a9231420d66637dfb4e9a709d362e1ae54838804b",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "load-script-xQd3nEry-AyPxdYKp.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/load-script-xQd3nEry-AyPxdYKp.js"
+        },
+        "request": {
+          "elapsed_ms": 64,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "414ca766ba86cef8e6baba4a9231420d66637dfb4e9a709d362e1ae54838804b",
+          "sampled_length": 1781,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:51Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/load-script-xQd3nEry-AyPxdYKp.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/028_0880763f6e55.js"
+      },
+      {
+        "analysis": {
+          "bytes": 6553,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "a2e6e200a692ebbd8fd66bac6ab9b1e042960ff8ea80fa9516b115cefce7e4ed",
+          "sink_counts": {},
+          "source_counts": {
+            "localStorage": 3
+          },
+          "source_maps": [
+            "metric-helpers-BbyfJZ6L-BSHWtmyS.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/metric-helpers-BbyfJZ6L-BSHWtmyS.js"
+        },
+        "request": {
+          "elapsed_ms": 495,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "a2e6e200a692ebbd8fd66bac6ab9b1e042960ff8ea80fa9516b115cefce7e4ed",
+          "sampled_length": 6553,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:52Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/metric-helpers-BbyfJZ6L-BSHWtmyS.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/029_fc62749f96f2.js"
+      },
+      {
+        "analysis": {
+          "bytes": 7085,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "d748c14d94f51cf694f44b2b08d1d9fa8cc8d9bb0f0eefe4990083f20815db27",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "middleware-BxZPJBX6-BlFBHfH9.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/middleware-BxZPJBX6-BlFBHfH9.js"
+        },
+        "request": {
+          "elapsed_ms": 74,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "d748c14d94f51cf694f44b2b08d1d9fa8cc8d9bb0f0eefe4990083f20815db27",
+          "sampled_length": 7085,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:53Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/middleware-BxZPJBX6-BlFBHfH9.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/030_279bf29dcfb7.js"
+      },
+      {
+        "analysis": {
+          "bytes": 16802,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "ea047f18463d96023081d26c13efc72b5faed7fd5396aa5f43a7238bb8f472a4",
+          "sink_counts": {},
+          "source_counts": {
+            "localStorage": 16,
+            "location.search": 1
+          },
+          "source_maps": [
+            "middleware-DpPkEmkl-BWd5MmwL.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/middleware-DpPkEmkl-BWd5MmwL.js"
+        },
+        "request": {
+          "elapsed_ms": 86,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "ea047f18463d96023081d26c13efc72b5faed7fd5396aa5f43a7238bb8f472a4",
+          "sampled_length": 16802,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:53Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/middleware-DpPkEmkl-BWd5MmwL.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/031_3506bf3ed667.js"
+      },
+      {
+        "analysis": {
+          "bytes": 3426,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "bc2b9ace666174e2f33fb83089d767f345870472a111f1a804633ed5c2b9b64f",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "mutation-CCI1BKx5.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/mutation-CCI1BKx5.js"
+        },
+        "request": {
+          "elapsed_ms": 490,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "bc2b9ace666174e2f33fb83089d767f345870472a111f1a804633ed5c2b9b64f",
+          "sampled_length": 3426,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:54Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/mutation-CCI1BKx5.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/032_88466e68aa59.js"
+      },
+      {
+        "analysis": {
+          "bytes": 5683,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "85dd953ffa674a454e375ac384751046dadee9f63d0613fa15a5d44772452e39",
+          "sink_counts": {},
+          "source_counts": {
+            "localStorage": 3
+          },
+          "source_maps": [
+            "p-while-C850axvJ-DMisvvGZ.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/p-while-C850axvJ-DMisvvGZ.js"
+        },
+        "request": {
+          "elapsed_ms": 62,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "85dd953ffa674a454e375ac384751046dadee9f63d0613fa15a5d44772452e39",
+          "sampled_length": 5683,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:55Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/p-while-C850axvJ-DMisvvGZ.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/033_e92d87777c17.js"
+      },
+      {
+        "analysis": {
+          "bytes": 8007,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "7c6c53870dcfef24b0587af4ff4eec95227016f1d017e346efc3805e6a2f4320",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "package-B-PSSrjq.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/package-B-PSSrjq.js"
+        },
+        "request": {
+          "elapsed_ms": 61,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "7c6c53870dcfef24b0587af4ff4eec95227016f1d017e346efc3805e6a2f4320",
+          "sampled_length": 8007,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:55Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/package-B-PSSrjq.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/034_0f2a6fdbc765.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1201,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "1358fd5668e5afdfe44d81853cc43c2c53ed30ea669dd6294d78c5a4f643e476",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [],
+          "url": "https://app.perk.com/mfe-web/assets/preload-helper-CbvoLNZ1.js"
+        },
+        "request": {
+          "elapsed_ms": 506,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "1358fd5668e5afdfe44d81853cc43c2c53ed30ea669dd6294d78c5a4f643e476",
+          "sampled_length": 1201,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:56Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/preload-helper-CbvoLNZ1.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/035_7fba1c43bfb4.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1356,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "b38cb632525c31d1fd652a1bb5fbac0501a94653a43bb10f75a257aa47bd1b0d",
+          "sink_counts": {},
+          "source_counts": {
+            "location.search": 1
+          },
+          "source_maps": [
+            "query-string-mWTI3AA0-CzxxvsS7.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/query-string-mWTI3AA0-CzxxvsS7.js"
+        },
+        "request": {
+          "elapsed_ms": 481,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "b38cb632525c31d1fd652a1bb5fbac0501a94653a43bb10f75a257aa47bd1b0d",
+          "sampled_length": 1356,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:57Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/query-string-mWTI3AA0-CzxxvsS7.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/036_62a791455f4f.js"
+      },
+      {
+        "analysis": {
+          "bytes": 273591,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "4dead117d09575ba472bb7a3425c3662ab9bb6b0d051bdffddd532a35a92f307",
+          "sink_counts": {
+            "addEventListener(\"message": 1,
+            "postMessage": 20
+          },
+          "source_counts": {
+            "document.referrer": 3,
+            "localStorage": 22,
+            "location.hash": 3,
+            "location.search": 5,
+            "sessionStorage": 4
+          },
+          "source_maps": [
+            "react-intl-Cab_XA2G.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/react-intl-Cab_XA2G.js"
+        },
+        "request": {
+          "elapsed_ms": 892,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "4dead117d09575ba472bb7a3425c3662ab9bb6b0d051bdffddd532a35a92f307",
+          "sampled_length": 273591,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:59Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/react-intl-Cab_XA2G.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/037_8c4e7e8cf2c5.js"
+      },
+      {
+        "analysis": {
+          "bytes": 508,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "c6c48e095a81abced2853d0717daef01a1906a3463ef731f2d1f90675c169142",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "replayStats-C6TwcZID.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/replayStats-C6TwcZID.js"
+        },
+        "request": {
+          "elapsed_ms": 57,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "508",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "c6c48e095a81abced2853d0717daef01a1906a3463ef731f2d1f90675c169142",
+          "sampled_length": 508,
+          "status": 200,
+          "timestamp": "2026-07-21T23:40:59Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/replayStats-C6TwcZID.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/038_ca26597e02f2.js"
+      },
+      {
+        "analysis": {
+          "bytes": 33,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "e73446bdce3c9c2eb1608268d52f5f6e2c3fd82301ec27e739236c7a0401c2c4",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [],
+          "url": "https://app.perk.com/mfe-web/assets/request-DSykm2xl.js"
+        },
+        "request": {
+          "elapsed_ms": 487,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "33",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "e73446bdce3c9c2eb1608268d52f5f6e2c3fd82301ec27e739236c7a0401c2c4",
+          "sampled_length": 33,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:00Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/request-DSykm2xl.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/039_6b1090509a0b.js"
+      },
+      {
+        "analysis": {
+          "bytes": 352,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "e40863adfe12856b22610b341919fd548b07d181004786de3278a0cc80a0e200",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "should-polyfill-BTOcvK4b.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/should-polyfill-BTOcvK4b.js"
+        },
+        "request": {
+          "elapsed_ms": 491,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "352",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "e40863adfe12856b22610b341919fd548b07d181004786de3278a0cc80a0e200",
+          "sampled_length": 352,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:01Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/should-polyfill-BTOcvK4b.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/040_430bfbfb2218.js"
+      },
+      {
+        "analysis": {
+          "bytes": 317,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "075e6b474383a00a32c3ebd305baf117854eef15bf236891dcf25fc11b98c500",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "should-polyfill-CNMZG5LD.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/should-polyfill-CNMZG5LD.js"
+        },
+        "request": {
+          "elapsed_ms": 57,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-length": "317",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "075e6b474383a00a32c3ebd305baf117854eef15bf236891dcf25fc11b98c500",
+          "sampled_length": 317,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:02Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/should-polyfill-CNMZG5LD.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/041_cf05dcb1966a.js"
+      },
+      {
+        "analysis": {
+          "bytes": 850900,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "877192238d1fe2313dbae2252a7a9d7e53cf87fc8fe8ac7db02ceaee5a380ec4",
+          "sink_counts": {
+            "innerHTML": 3
+          },
+          "source_counts": {
+            "sessionStorage": 2
+          },
+          "source_maps": [
+            "suitcase.es-Dp8al1ev.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/suitcase.es-Dp8al1ev.js"
+        },
+        "request": {
+          "elapsed_ms": 1148,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "877192238d1fe2313dbae2252a7a9d7e53cf87fc8fe8ac7db02ceaee5a380ec4",
+          "sampled_length": 850900,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:04Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/suitcase.es-Dp8al1ev.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/042_bed7e726cc2d.js"
+      },
+      {
+        "analysis": {
+          "bytes": 3894,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "829ecd373d47df66b01b5929eda2bfe3a24dcf04e45478ae9a1e7c3ecd2f754c",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "temporal-Bv-hHsQ9.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/temporal-Bv-hHsQ9.js"
+        },
+        "request": {
+          "elapsed_ms": 502,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "829ecd373d47df66b01b5929eda2bfe3a24dcf04e45478ae9a1e7c3ecd2f754c",
+          "sampled_length": 3894,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:05Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/temporal-Bv-hHsQ9.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/043_4a2e74905f92.js"
+      },
+      {
+        "analysis": {
+          "bytes": 80538,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "d9860f017a95418c413bfe762e1293417430896420f1681536a0192a890a4e61",
+          "sink_counts": {},
+          "source_counts": {
+            "document.referrer": 1,
+            "localStorage": 2,
+            "location.search": 3,
+            "sessionStorage": 1
+          },
+          "source_maps": [
+            "tk-auth.es-CHmx5lrh.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/tk-auth.es-CHmx5lrh.js"
+        },
+        "request": {
+          "elapsed_ms": 769,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "d9860f017a95418c413bfe762e1293417430896420f1681536a0192a890a4e61",
+          "sampled_length": 80538,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:06Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/tk-auth.es-CHmx5lrh.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/044_5a42f279bc21.js"
+      },
+      {
+        "analysis": {
+          "bytes": 2680896,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "06872e71a860ba2fc9ea3d9110933afdee50e4615601d1e1c2f01d968acafe39",
+          "sink_counts": {
+            "innerHTML": 5,
+            "outerHTML": 1,
+            "postMessage": 3
+          },
+          "source_counts": {
+            "localStorage": 3,
+            "location.search": 3
+          },
+          "source_maps": [
+            "tk-common-ui.es-DDw6dTBJ.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/tk-common-ui.es-DDw6dTBJ.js"
+        },
+        "request": {
+          "elapsed_ms": 1298,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "06872e71a860ba2fc9ea3d9110933afdee50e4615601d1e1c2f01d968acafe39",
+          "sampled_length": 2680896,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:08Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/tk-common-ui.es-DDw6dTBJ.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/045_63262344e228.js"
+      },
+      {
+        "analysis": {
+          "bytes": 16577,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "e1c597c8b08eed919d86b60e4593cf565bcae0e89899831e95a7b1b90d68fa79",
+          "sink_counts": {},
+          "source_counts": {
+            "localStorage": 2
+          },
+          "source_maps": [
+            "tk-l10n.es-DTmIU6wA.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/tk-l10n.es-DTmIU6wA.js"
+        },
+        "request": {
+          "elapsed_ms": 229,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "e1c597c8b08eed919d86b60e4593cf565bcae0e89899831e95a7b1b90d68fa79",
+          "sampled_length": 16577,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:09Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/tk-l10n.es-DTmIU6wA.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/046_989c363c3c4e.js"
+      },
+      {
+        "analysis": {
+          "bytes": 11227,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "7c759709f43b2171aa1dd69b0cb154196d254a29b1997525f0878897ff56977a",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "tslib.es6-C4pPfcjE.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/tslib.es6-C4pPfcjE.js"
+        },
+        "request": {
+          "elapsed_ms": 513,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "7c759709f43b2171aa1dd69b0cb154196d254a29b1997525f0878897ff56977a",
+          "sampled_length": 11227,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:10Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/tslib.es6-C4pPfcjE.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/047_2c2d1b61fa09.js"
+      },
+      {
+        "analysis": {
+          "bytes": 2749,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "a5eef06522a778a5be849c9d863d75ce8dbe0e8e283ba0700d3eb66266d5f124",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "tslib.es6-NLv-gY2n-il6i-HoE.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/tslib.es6-NLv-gY2n-il6i-HoE.js"
+        },
+        "request": {
+          "elapsed_ms": 60,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "a5eef06522a778a5be849c9d863d75ce8dbe0e8e283ba0700d3eb66266d5f124",
+          "sampled_length": 2749,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:11Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/tslib.es6-NLv-gY2n-il6i-HoE.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/048_e07fa774763b.js"
+      },
+      {
+        "analysis": {
+          "bytes": 7535,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "d88f02fa7462fa67f935812ad437b3c7c6eb041f59883226511e47108276102e",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "types-B-sczjsR.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/types-B-sczjsR.js"
+        },
+        "request": {
+          "elapsed_ms": 495,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "d88f02fa7462fa67f935812ad437b3c7c6eb041f59883226511e47108276102e",
+          "sampled_length": 7535,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:12Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/types-B-sczjsR.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/049_450e0bdca684.js"
+      },
+      {
+        "analysis": {
+          "bytes": 1742,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "448f7ea93e0988436f7d449b9068ad37723e7bd9e739d850c4d991ebda5d5e19",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "types-CV1HkpOa.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/types-CV1HkpOa.js"
+        },
+        "request": {
+          "elapsed_ms": 55,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "448f7ea93e0988436f7d449b9068ad37723e7bd9e739d850c4d991ebda5d5e19",
+          "sampled_length": 1742,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:12Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/types-CV1HkpOa.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/050_7b04aec0fcd9.js"
+      },
+      {
+        "analysis": {
+          "bytes": 5711,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "536924ef6f3ea0502af38748fd530aa2b5a53fd4b88d3f98078a1a0c0e0f5f46",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "types-D2v1o9VF.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/types-D2v1o9VF.js"
+        },
+        "request": {
+          "elapsed_ms": 492,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "536924ef6f3ea0502af38748fd530aa2b5a53fd4b88d3f98078a1a0c0e0f5f46",
+          "sampled_length": 5711,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:13Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/types-D2v1o9VF.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/051_51b768ecf887.js"
+      },
+      {
+        "analysis": {
+          "bytes": 2377,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "3357980197e5bfb35382fb78df957376111f862f20b024a534d1632e294b4d31",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "useMutation-DTw7LAH6.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/useMutation-DTw7LAH6.js"
+        },
+        "request": {
+          "elapsed_ms": 505,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "3357980197e5bfb35382fb78df957376111f862f20b024a534d1632e294b4d31",
+          "sampled_length": 2377,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:14Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/useMutation-DTw7LAH6.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/052_9b103612e9ca.js"
+      },
+      {
+        "analysis": {
+          "bytes": 15933,
+          "endpoint_strings": [],
+          "secret_candidates": [],
+          "sha256": "f667b11658ab06b7947b2afa699c98aa9af64f13b03b1716a98006a5d280f267",
+          "sink_counts": {},
+          "source_counts": {},
+          "source_maps": [
+            "useNavigateToUrl-CzvJU_My.js.map"
+          ],
+          "url": "https://app.perk.com/mfe-web/assets/useNavigateToUrl-CzvJU_My.js"
+        },
+        "request": {
+          "elapsed_ms": 501,
+          "headers": {
+            "cache-control": "public, max-age=86400",
+            "content-type": "text/javascript",
+            "server": "AmazonS3",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "method": "GET",
+          "sample_sha256": "f667b11658ab06b7947b2afa699c98aa9af64f13b03b1716a98006a5d280f267",
+          "sampled_length": 15933,
+          "status": 200,
+          "timestamp": "2026-07-21T23:41:15Z",
+          "truncated": false,
+          "url": "https://app.perk.com/mfe-web/assets/useNavigateToUrl-CzvJU_My.js"
+        },
+        "saved_file": "/root/perk_bac_idor_results/evidence/historical_urls_20260721_active/raw_current_assets/053_6a9980fadc24.js"
+      }
+    ],
+    "discovered_exact_host_js_urls": 53,
+    "html_request": {
+      "elapsed_ms": 75,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "28508",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-lYwzUu5WgWdzpuDAgoGkjg==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-web;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "sample_sha256": "e1a615565dbe751d41259b76f71b8e6e3e40e20fc2978a2bda6d8d327d35c19c",
+      "sampled_length": 28508,
+      "status": 200,
+      "timestamp": "2026-07-21T23:40:30Z",
+      "truncated": false,
+      "url": "https://app.perk.com/trips"
+    },
+    "status_counts": {
+      "200": 53
+    },
+    "tested_js_urls": 53
+  },
+  "redirect_reflection": [
+    {
+      "body_kind": "html",
+      "elapsed_ms": 49,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store, max-age=0",
+        "content-length": "2431",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "ecfec74fdaffd2bc3ac97e126f599326eadbc30f2909a507733c0ecdcd439450",
+      "sampled_length": 2431,
+      "status": 202,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:22Z",
+      "truncated": false,
+      "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+      "variant": "login_https"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 61,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store, max-age=0",
+        "content-length": "2431",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "full",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "03faa650409f3c56227f6b4f413a54bc34b4dad97a03af0df6f489d9a616c9dc",
+      "sampled_length": 2431,
+      "status": 202,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:22Z",
+      "truncated": false,
+      "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+      "variant": "login_https"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 42,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store, max-age=0",
+        "content-length": "2431",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "5d93f144ab6a2a8365524e2384795ff4525154642a106dc6569504a6b27f96cb",
+      "sampled_length": 2431,
+      "status": 202,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:23Z",
+      "truncated": false,
+      "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+      "variant": "login_protocol_relative"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 42,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-store, max-age=0",
+        "content-length": "2431",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "full",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "eaf7fba375c9c818f5327f2226919f3ab1fc2f1899ab0aa95094dbe578b08e00",
+      "sampled_length": 2431,
+      "status": 202,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:23Z",
+      "truncated": false,
+      "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+      "variant": "login_protocol_relative"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 194,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "22626",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-euej8aw+eoGzlR9lHFZRFQ==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-access;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "5143b4ae9c36610d205ad41451ee070ab4ff9dd4bdadc63864407844a6bc8626",
+      "sampled_length": 22626,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:24Z",
+      "truncated": false,
+      "url": "https://app.perk.com/sso-login?return_to=[REDACTED]",
+      "variant": "sso_return_to"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 61,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "22626",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-tFlNw5U3weQlqwnbeQcoeQ==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-access;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "full",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "d13b081002c08c6ad51fde6632bef11e42686a501aafb7cb947f093c83a2ea84",
+      "sampled_length": 22626,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:25Z",
+      "truncated": false,
+      "url": "https://app.perk.com/sso-login?return_to=[REDACTED]",
+      "variant": "sso_return_to"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 72,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "22626",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-OM/A+BUyAvN8lQrYAgd2aQ==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-access;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "4768681a3c99072d4a7a32a0104f040a41abfd17d2056b4392ded12489cd043c",
+      "sampled_length": 22626,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:25Z",
+      "truncated": false,
+      "url": "https://app.perk.com/sso-login?redirect_uri=[REDACTED]",
+      "variant": "sso_redirect_uri"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 136,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "22626",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-/FT1pF7i+s8xKV6Q4T+UZQ==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-access;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "full",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "70b4002c04ff2de9d418f042979398e263eb3053ddb0e733843301ad473db296",
+      "sampled_length": 22626,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:26Z",
+      "truncated": false,
+      "url": "https://app.perk.com/sso-login?redirect_uri=[REDACTED]",
+      "variant": "sso_redirect_uri"
+    },
+    {
+      "body_kind": "json",
+      "elapsed_ms": 473,
+      "headers": {
+        "allow": "GET, HEAD, OPTIONS",
+        "content-length": "2",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sampled_length": 2,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:27Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/?redirect_uri=[REDACTED]&state=[REDACTED]",
+      "variant": "federated_redirect_uri"
+    },
+    {
+      "body_kind": "json",
+      "elapsed_ms": 216,
+      "headers": {
+        "allow": "GET, HEAD, OPTIONS",
+        "content-length": "2",
+        "content-type": "application/json",
+        "referrer-policy": "same-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "vary": "Origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "mode": "full",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sampled_length": 2,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:27Z",
+      "truncated": false,
+      "url": "https://app.perk.com/api/v2/federated-login-redirect/?redirect_uri=[REDACTED]&state=[REDACTED]",
+      "variant": "federated_redirect_uri"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 63,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "22626",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-Xqik5OQ6jrlMcwGj0oy/Ng==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-access;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "anonymous",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "148044ff590a268fc5b6960b50bc0885b58bdf3a0f3b8dc7308015be6e8246c1",
+      "sampled_length": 22626,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:28Z",
+      "truncated": false,
+      "url": "https://app.perk.com/onboard/?uid=[REDACTED]&token=[REDACTED]&name=[REDACTED]&last_name=[REDACTED]&account_name=[REDACTED]&source=[REDACTED]",
+      "variant": "onboard_reflection"
+    },
+    {
+      "body_kind": "html",
+      "elapsed_ms": 668,
+      "headers": {
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "content-length": "22626",
+        "content-security-policy": "base-uri 'self';connect-src 'self' https: http://localhost:* wss: data: blob: https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;frame-src https://*.perk.com https://td.doubleclick.net/ https://www.google.com/ https://www.facebook.com/ https://gum.criteo.com/ https://gumi.criteo.com https://fledge.eu.criteo.com/ https://fledge.criteo.com/ https://static.criteo.net https://renderer.gist.build/ https://code.gist.build/ https://gateway.zscloud.net https://looker-reporting.travelperk.com/ https://*.adyen.com https://hooks.stripe.com https://core.spreedly.com https://connect.useparagon.com https://cdn.merge.dev https://gateway.zscaler.net https://web.cmp.usercentrics.eu/ https://widgets-sandbox.marqeta.com/ https://widgets.marqeta.com/ https://expense-robot-prod.firebaseapp.com https://expense-robot-staging.firebaseapp.com https://expense-robot-test.firebaseapp.com;img-src 'self' data: https: blob: https://rs.fullstory.com https://rs.eu1.fullstory.com;object-src 'none';script-src https: 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample' 'nonce-+hvUAfSWIzK2cgnlQiaTxw==' https://*.edge.sdk.awswaf.com https://edge.fullstory.com https://rs.fullstory.com https://edge.eu1.fullstory.com https://rs.eu1.fullstory.com;worker-src blob:;report-uri https://browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pubce0746b88c765822b6b6b4113fe9a051&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env%3Aprod%2Cservice%3Atk-access;report-to browser-intake-datadoghq",
+        "content-type": "text/html",
+        "server": "CloudFront"
+      },
+      "method": "GET",
+      "mode": "full",
+      "reflection": {
+        "encoded_custom_tag": false,
+        "external_host": false,
+        "plain_marker": false,
+        "raw_custom_tag": false,
+        "urlencoded_custom_tag": false
+      },
+      "sample_sha256": "3c38df183ce80edc2c2e3f22f1457bc691873f5c0c7b8498009e2a89dcd00087",
+      "sampled_length": 22626,
+      "status": 200,
+      "test": "redirect_reflection",
+      "timestamp": "2026-07-21T23:40:29Z",
+      "truncated": false,
+      "url": "https://app.perk.com/onboard/?uid=[REDACTED]&token=[REDACTED]&name=[REDACTED]&last_name=[REDACTED]&account_name=[REDACTED]&source=[REDACTED]",
+      "variant": "onboard_reflection"
+    }
+  ],
+  "refresh": {
+    "actor": {
+      "actor_type": "user",
+      "roles_count": 1,
+      "claim_values_redacted": true
+    },
+    "attempted": true,
+    "initial_seconds_remaining": 672,
+    "new_seconds_remaining": 3599,
+    "refresh_status": 200,
+    "result": "refreshed_in_memory",
+    "session_status": 200
+  }
+}

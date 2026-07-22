@@ -1,0 +1,485 @@
+{
+  "generated_at": "2026-07-21T23:50:31.895Z",
+  "results": [
+    {
+      "mode": "anonymous",
+      "case": "baseline",
+      "requested_path": "/login",
+      "initial_status": 202,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/login",
+      "final_query_keys": [],
+      "title": "",
+      "html_length": 2425,
+      "html_sha256": "4ea0c407733ce54bb0fb3f76b943d32cbffba48913ae7558d33705fab3f36565",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/login",
+          "status": 202
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "2346f2e1aad5.8bcac337.us-west-1.token.awswaf.com",
+          "path": "/2346f2e1aad5/a861ee917f65/b975e37826b9/challenge.js",
+          "resource_type": "script",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "anonymous",
+      "case": "absolute_external",
+      "requested_path": "/login",
+      "initial_status": 202,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/login",
+      "final_query_keys": [
+        "coming_from"
+      ],
+      "title": "",
+      "html_length": 2425,
+      "html_sha256": "60d675ad1cf082aa4fc310daf20255bf516102dd79317336441686413c285a4c",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+          "status": 202
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "2346f2e1aad5.8bcac337.us-west-1.token.awswaf.com",
+          "path": "/2346f2e1aad5/a861ee917f65/b975e37826b9/challenge.js",
+          "resource_type": "script",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "anonymous",
+      "case": "protocol_relative",
+      "requested_path": "/login",
+      "initial_status": 202,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/login",
+      "final_query_keys": [
+        "coming_from"
+      ],
+      "title": "",
+      "html_length": 2425,
+      "html_sha256": "35b6e002c5d54e603d3a471a2cd959fcdfac28153e26713b0fddec2402becd6e",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+          "status": 202
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "2346f2e1aad5.8bcac337.us-west-1.token.awswaf.com",
+          "path": "/2346f2e1aad5/a861ee917f65/b975e37826b9/challenge.js",
+          "resource_type": "script",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "anonymous",
+      "case": "sso_return_to",
+      "requested_path": "/sso-login",
+      "initial_status": 200,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/sso-login",
+      "final_query_keys": [
+        "return_to"
+      ],
+      "title": "Perk",
+      "html_length": 32237,
+      "html_sha256": "349ac1f976fb9a49fe0378bf34dc4df4520f9147eeca5cfa13256748e75376a6",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/sso-login?return_to=[REDACTED]",
+          "status": 200
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "web.cmp.usercentrics.eu",
+          "path": "/ui/loader.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "46768507695f.cdn4.forter.com",
+          "path": "/sn/46768507695f/script.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "db7q4jg5rkhk8.cloudfront.net",
+          "path": "/status",
+          "resource_type": "xhr",
+          "navigation": false
+        },
+        {
+          "hostname": "1.1.1.1",
+          "path": "/dns-query",
+          "resource_type": "xhr",
+          "navigation": false
+        },
+        {
+          "hostname": "edge.fullstory.com",
+          "path": "/s/fs.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "cdn.jsdelivr.net",
+          "path": "/npm/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/fonts/PerkSans/PerkSans-Regular.woff2",
+          "resource_type": "font",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/fonts/PerkSans/PerkSans-Regular.woff",
+          "resource_type": "font",
+          "navigation": false
+        },
+        {
+          "hostname": "cdn.jsdelivr.net",
+          "path": "/npm/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/favicons/favicon-32x32.png",
+          "resource_type": "other",
+          "navigation": false
+        },
+        {
+          "hostname": "unpkg.com",
+          "path": "/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "unpkg.com",
+          "path": "/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/favicons/favicon-192x192.png",
+          "resource_type": "other",
+          "navigation": false
+        },
+        {
+          "hostname": "cdp.customer.io",
+          "path": "/v1/projects/b0a825c6525615f897b2/settings",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/logos/light/perk-logo.svg",
+          "resource_type": "image",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/illustrations/customer_care.svg",
+          "resource_type": "image",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/fonts/PerkSans/PerkSans-Medium.woff2",
+          "resource_type": "font",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/fonts/PerkSans/PerkSans-Medium.woff",
+          "resource_type": "font",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "authenticated_cookies",
+      "case": "baseline",
+      "requested_path": "/login",
+      "initial_status": 202,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/login",
+      "final_query_keys": [],
+      "title": "",
+      "html_length": 2425,
+      "html_sha256": "d999c9955c75e3e5d7448989dbc044badc08e9623f1048c1d405e662f1bd7d3c",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/login",
+          "status": 202
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "2346f2e1aad5.8bcac337.us-west-1.token.awswaf.com",
+          "path": "/2346f2e1aad5/a861ee917f65/b975e37826b9/challenge.js",
+          "resource_type": "script",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "authenticated_cookies",
+      "case": "absolute_external",
+      "requested_path": "/login",
+      "initial_status": 202,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/login",
+      "final_query_keys": [
+        "coming_from"
+      ],
+      "title": "",
+      "html_length": 2425,
+      "html_sha256": "b2d6da14b6083ed32a995b4a43566e6cd214622cbfa1ada605f0d6b39b790b87",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+          "status": 202
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "2346f2e1aad5.8bcac337.us-west-1.token.awswaf.com",
+          "path": "/2346f2e1aad5/a861ee917f65/b975e37826b9/challenge.js",
+          "resource_type": "script",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "authenticated_cookies",
+      "case": "protocol_relative",
+      "requested_path": "/login",
+      "initial_status": 202,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/login",
+      "final_query_keys": [
+        "coming_from"
+      ],
+      "title": "",
+      "html_length": 2425,
+      "html_sha256": "025729ecb23b008c49018df61545a753a25aa6ff4d8403acd2812ef1664ebe85",
+      "waf_interstitial": true,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/login?coming_from=[REDACTED]",
+          "status": 202
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "2346f2e1aad5.8bcac337.us-west-1.token.awswaf.com",
+          "path": "/2346f2e1aad5/a861ee917f65/b975e37826b9/challenge.js",
+          "resource_type": "script",
+          "navigation": false
+        }
+      ],
+      "error": null
+    },
+    {
+      "mode": "authenticated_cookies",
+      "case": "sso_return_to",
+      "requested_path": "/sso-login",
+      "initial_status": 200,
+      "final_origin": "https://app.perk.com",
+      "final_path": "/home",
+      "final_query_keys": [],
+      "title": "",
+      "html_length": 0,
+      "html_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "waf_interstitial": false,
+      "marker_reflected": false,
+      "navigation_responses": [
+        {
+          "url": "https://app.perk.com/sso-login?return_to=[REDACTED]",
+          "status": 200
+        },
+        {
+          "url": "https://app.perk.com/home",
+          "status": 200
+        }
+      ],
+      "blocked_off_host": [
+        {
+          "hostname": "web.cmp.usercentrics.eu",
+          "path": "/ui/loader.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "46768507695f.cdn4.forter.com",
+          "path": "/sn/46768507695f/script.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "db7q4jg5rkhk8.cloudfront.net",
+          "path": "/status",
+          "resource_type": "xhr",
+          "navigation": false
+        },
+        {
+          "hostname": "1.1.1.1",
+          "path": "/dns-query",
+          "resource_type": "xhr",
+          "navigation": false
+        },
+        {
+          "hostname": "edge.fullstory.com",
+          "path": "/s/fs.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "cdn.jsdelivr.net",
+          "path": "/npm/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/fonts/PerkSans/PerkSans-Regular.woff2",
+          "resource_type": "font",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/fonts/PerkSans/PerkSans-Regular.woff",
+          "resource_type": "font",
+          "navigation": false
+        },
+        {
+          "hostname": "cdn.jsdelivr.net",
+          "path": "/npm/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/favicons/favicon-32x32.png",
+          "resource_type": "other",
+          "navigation": false
+        },
+        {
+          "hostname": "unpkg.com",
+          "path": "/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "staticassets.perk.com",
+          "path": "/favicons/favicon-192x192.png",
+          "resource_type": "other",
+          "navigation": false
+        },
+        {
+          "hostname": "unpkg.com",
+          "path": "/@lottiefiles/dotlottie-web@0.65.0/dist/dotlottie-player.wasm",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "cdp.customer.io",
+          "path": "/v1/projects/b0a825c6525615f897b2/settings",
+          "resource_type": "fetch",
+          "navigation": false
+        },
+        {
+          "hostname": "browser-intake-datadoghq.eu",
+          "path": "/api/v2/rum",
+          "resource_type": "ping",
+          "navigation": false
+        },
+        {
+          "hostname": "browser-intake-datadoghq.eu",
+          "path": "/api/v2/rum",
+          "resource_type": "ping",
+          "navigation": false
+        },
+        {
+          "hostname": "web.cmp.usercentrics.eu",
+          "path": "/ui/loader.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "46768507695f.cdn4.forter.com",
+          "path": "/sn/46768507695f/script.js",
+          "resource_type": "script",
+          "navigation": false
+        },
+        {
+          "hostname": "db7q4jg5rkhk8.cloudfront.net",
+          "path": "/status",
+          "resource_type": "xhr",
+          "navigation": false
+        },
+        {
+          "hostname": "1.1.1.1",
+          "path": "/dns-query",
+          "resource_type": "xhr",
+          "navigation": false
+        }
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1037 @@
+{
+  "map_references": 49,
+  "rows": [
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/NoMatch-B9L5TVqk.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/NoMatch-B9L5TVqk.js.map",
+      "request": {
+        "elapsed_ms": 503,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "41bbad2a4f21324be168e9a8a8971e543af11729cd2ff7fb0cd5e0ab39023eb6",
+        "sampled_length": 329,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:14Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/NoMatch-B9L5TVqk.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/api_prefix-CREWn72Y.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/api_prefix-CREWn72Y.js.map",
+      "request": {
+        "elapsed_ms": 471,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "2777d1509b36b064721877926d766774ec176f8d576809033876a176cdbb2b0d",
+        "sampled_length": 332,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:15Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/api_prefix-CREWn72Y.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/callback-BTeoipOE-DXHMMYL9.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/callback-BTeoipOE-DXHMMYL9.js.map",
+      "request": {
+        "elapsed_ms": 489,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "a8ea3233110287fccc3250d5d1ba9ab4c99daf9f343e13be4dcc66431866c16a",
+        "sampled_length": 339,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:16Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/callback-BTeoipOE-DXHMMYL9.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/callback-DA3ZAz_H-DXHMMYL9.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/callback-DA3ZAz_H-DXHMMYL9.js.map",
+      "request": {
+        "elapsed_ms": 485,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "1d50b52573027cfdc9c506913ef74f711debb4aab37bb9f5e33db36137e043a2",
+        "sampled_length": 339,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:17Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/callback-DA3ZAz_H-DXHMMYL9.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/chunk-Dqa2HsxW-DwrjHvwf.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/chunk-Dqa2HsxW-DwrjHvwf.js.map",
+      "request": {
+        "elapsed_ms": 482,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "3f106eff599447f4b9d0d3f4ef660c12337c1a7d20a2a4104b6d954d5498bbf3",
+        "sampled_length": 316,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:18Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/chunk-Dqa2HsxW-DwrjHvwf.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/config-CAD6LEIQ.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/config-CAD6LEIQ.js.map",
+      "request": {
+        "elapsed_ms": 487,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "2a9f92df5b1058cf061e602141d692e10d413f45af4724e45c7463272c453288",
+        "sampled_length": 328,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:19Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/config-CAD6LEIQ.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/core-kt6-lqXl-PG4f6zrS-CAd8TDgx.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/core-kt6-lqXl-PG4f6zrS-CAd8TDgx.js.map",
+      "request": {
+        "elapsed_ms": 483,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "d7ae68d45dd7eb9f87e2164801c00f7584f2062007885b271ff36ed90e179f54",
+        "sampled_length": 324,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:20Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/core-kt6-lqXl-PG4f6zrS-CAd8TDgx.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/debounce-CMb8f7wh-DfCJU094-rQEqLNYw.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/debounce-CMb8f7wh-DfCJU094-rQEqLNYw.js.map",
+      "request": {
+        "elapsed_ms": 480,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "644e7cbdcdad40a81755b3e3e64bbdaa7738623a047c9af46ec6cf861adc8bfc",
+        "sampled_length": 348,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:21Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/debounce-CMb8f7wh-DfCJU094-rQEqLNYw.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/dist-3bvAAOzT-S9baGHki.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/dist-3bvAAOzT-S9baGHki.js.map",
+      "request": {
+        "elapsed_ms": 528,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "6302340a66f4a947a58a64f76b1e05df407e32dcd9694154fc605109d84ee095",
+        "sampled_length": 335,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:22Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/dist-3bvAAOzT-S9baGHki.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/en-DTpcKFnD.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/en-DTpcKFnD.js.map",
+      "request": {
+        "elapsed_ms": 484,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "817fe0b6565f3ec57b371e40ad6d220b229c303e0e4d71c3189fd704ad770b30",
+        "sampled_length": 324,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:23Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/en-DTpcKFnD.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/esm-Cemll5RB.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/esm-Cemll5RB.js.map",
+      "request": {
+        "elapsed_ms": 491,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "52f8a7a8d9da84074839f57959cd1c73d6ace078564fb98f90d3cec8b6dfbb6b",
+        "sampled_length": 325,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:24Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/esm-Cemll5RB.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/featureFlagsContext-Byahl-nT.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/featureFlagsContext-Byahl-nT.js.map",
+      "request": {
+        "elapsed_ms": 487,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "ce506345be2becfd719f7a8274ecd340d53aa5b3c41f13be46d3cadca97e0602",
+        "sampled_length": 341,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:25Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/featureFlagsContext-Byahl-nT.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-BJbKwAXf-Cjfhr3Sm.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-BJbKwAXf-Cjfhr3Sm.js.map",
+      "request": {
+        "elapsed_ms": 487,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "f460acfdbcdc5a9410bfdf39398f9fd046b227c6ec57d9fb97ac2ac404520760",
+        "sampled_length": 357,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:26Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-BJbKwAXf-Cjfhr3Sm.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-Cvf2cyTi-Cjfhr3Sm.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-Cvf2cyTi-Cjfhr3Sm.js.map",
+      "request": {
+        "elapsed_ms": 485,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "4561ab820999fc9b04eb22c900b5fbc8c730ae07c86a67d16e5ad8d052072066",
+        "sampled_length": 357,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:27Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/gracefulDecodeURIComponent-Cvf2cyTi-Cjfhr3Sm.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/helpers-BeYjy2xY-C0BgA-mv.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/helpers-BeYjy2xY-C0BgA-mv.js.map",
+      "request": {
+        "elapsed_ms": 481,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "97348f61470d1e4cba085fd1dbe58305e0b3f6f53c76e919a3862abcc41fbc25",
+        "sampled_length": 318,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:28Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/helpers-BeYjy2xY-C0BgA-mv.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/helpers-CVBXS7-M-BInrIo76.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/helpers-CVBXS7-M-BInrIo76.js.map",
+      "request": {
+        "elapsed_ms": 498,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "58dff359be150ef620c34a4189b5072cdac6a6c9f532494b6e49ea8b76e074a7",
+        "sampled_length": 338,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:29Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/helpers-CVBXS7-M-BInrIo76.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/http_method-CyLVEiMb.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/http_method-CyLVEiMb.js.map",
+      "request": {
+        "elapsed_ms": 502,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "be33eef4b17ab8e2a598d64b9fff789047e5384481d71be05b6fead4139dc2d7",
+        "sampled_length": 333,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:30Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/http_method-CyLVEiMb.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/icons-CY7K0_G0-D1K9kc0W.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/icons-CY7K0_G0-D1K9kc0W.js.map",
+      "request": {
+        "elapsed_ms": 483,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "1f90ff1ab985b79522c66b859ae143c271fef23459fcbe857a0355086840fc8f",
+        "sampled_length": 336,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:31Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/icons-CY7K0_G0-D1K9kc0W.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/index-B5YxxhLs.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/index-B5YxxhLs.js.map",
+      "request": {
+        "elapsed_ms": 482,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "e84db5a414f5cabe73d3addb5a14a13ee0ccbc3dfe1a7ca77fb152c81556727c",
+        "sampled_length": 307,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:32Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/index-B5YxxhLs.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/isObjectLike-rsRZdtvh.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/isObjectLike-rsRZdtvh.js.map",
+      "request": {
+        "elapsed_ms": 478,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "235b502163f90da89c5fb215b73e8800b3bae432696f9ec130e7accc83f28c50",
+        "sampled_length": 334,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:33Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/isObjectLike-rsRZdtvh.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/isTypedArray-C8M52DkF.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/isTypedArray-C8M52DkF.js.map",
+      "request": {
+        "elapsed_ms": 509,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "0fb3dde804b6d1340c58b5e0134a31d85e19b45d753976f7236d630057944c3b",
+        "sampled_length": 314,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:34Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/isTypedArray-C8M52DkF.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/jsx-runtime-DVy0kmU9.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/jsx-runtime-DVy0kmU9.js.map",
+      "request": {
+        "elapsed_ms": 478,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "4efda3eca5ec7f0e0a594d150f5ce3bebe9c2a865c2ca696e978adf98f44c5ae",
+        "sampled_length": 333,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:35Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/jsx-runtime-DVy0kmU9.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/lib-BOCTBnhm.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/lib-BOCTBnhm.js.map",
+      "request": {
+        "elapsed_ms": 499,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "88ce16fab5905b29bd67ba4f672d63b7991aecb8363ff1c882a33a59643810d8",
+        "sampled_length": 325,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:36Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/lib-BOCTBnhm.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/lit-localize-CUmeAeS2-CN_TKwXv.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/lit-localize-CUmeAeS2-CN_TKwXv.js.map",
+      "request": {
+        "elapsed_ms": 485,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "cfd5ad34c12daa1c40ede168152e2169f33faab1c77332660c3217f34eac2bf8",
+        "sampled_length": 343,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:37Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/lit-localize-CUmeAeS2-CN_TKwXv.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/load-script-DBaQq7Kw-BhG84EvX.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/load-script-DBaQq7Kw-BhG84EvX.js.map",
+      "request": {
+        "elapsed_ms": 510,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "c78f3aa891cfbfc502e8082357572dbc2776fd2a206c44d5d0b73d98b8cd2bfd",
+        "sampled_length": 342,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:38Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/load-script-DBaQq7Kw-BhG84EvX.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/load-script-xQd3nEry-AyPxdYKp.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/load-script-xQd3nEry-AyPxdYKp.js.map",
+      "request": {
+        "elapsed_ms": 486,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "cf3e44d72e8f682550450e123f4c36247cd85eb4eaa642c3850b15b222006456",
+        "sampled_length": 322,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:39Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/load-script-xQd3nEry-AyPxdYKp.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/metric-helpers-BbyfJZ6L-BSHWtmyS.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/metric-helpers-BbyfJZ6L-BSHWtmyS.js.map",
+      "request": {
+        "elapsed_ms": 485,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "0381cead4f2ab43033f70964f0aaa2aa2ffb67de011c0ae15e789f902a40d7c3",
+        "sampled_length": 325,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:40Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/metric-helpers-BbyfJZ6L-BSHWtmyS.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/middleware-BxZPJBX6-BlFBHfH9.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/middleware-BxZPJBX6-BlFBHfH9.js.map",
+      "request": {
+        "elapsed_ms": 519,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "2b58230eb77ad3baedfe08b7e12f1de802e2986e216b832c796f8e027e31c770",
+        "sampled_length": 341,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:41Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/middleware-BxZPJBX6-BlFBHfH9.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/middleware-DpPkEmkl-BWd5MmwL.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/middleware-DpPkEmkl-BWd5MmwL.js.map",
+      "request": {
+        "elapsed_ms": 510,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "88dea7d26683f62a24eaf697009ce10c63d34c6bde117574ec61e6942455e3b1",
+        "sampled_length": 341,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:42Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/middleware-DpPkEmkl-BWd5MmwL.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/mutation-CCI1BKx5.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/mutation-CCI1BKx5.js.map",
+      "request": {
+        "elapsed_ms": 469,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "e26c1ef25dc6f1b29da3e6c35bc88fa8499fa7448521178328f4fcf24add343c",
+        "sampled_length": 310,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:43Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/mutation-CCI1BKx5.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/p-while-C850axvJ-DMisvvGZ.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/p-while-C850axvJ-DMisvvGZ.js.map",
+      "request": {
+        "elapsed_ms": 481,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "a23148394c48e59526cf76935915fa468a34878170d3d507d9e5b95f83392688",
+        "sampled_length": 338,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:44Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/p-while-C850axvJ-DMisvvGZ.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/package-B-PSSrjq.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/package-B-PSSrjq.js.map",
+      "request": {
+        "elapsed_ms": 496,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "97209b29607039f9ff81103564bc09fa7d0e7121ed99674bf1dfa2697769c91f",
+        "sampled_length": 309,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:45Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/package-B-PSSrjq.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/query-string-mWTI3AA0-CzxxvsS7.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/query-string-mWTI3AA0-CzxxvsS7.js.map",
+      "request": {
+        "elapsed_ms": 501,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "bd7f152c14d0a5438aa565910f64021ed9f090379b6d69117635ebb45d06b6c4",
+        "sampled_length": 323,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:46Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/query-string-mWTI3AA0-CzxxvsS7.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/react-intl-Cab_XA2G.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/react-intl-Cab_XA2G.js.map",
+      "request": {
+        "elapsed_ms": 490,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "e1682663f7fd68ebd96a8d0f5e2873f748332efb22a3a4b230ef68e88d9c5214",
+        "sampled_length": 332,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:47Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/react-intl-Cab_XA2G.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/replayStats-C6TwcZID.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/replayStats-C6TwcZID.js.map",
+      "request": {
+        "elapsed_ms": 479,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "65f3f7f2010a7c811be3e0fcb5227519487e3e12ac0c275f133759cc0667969e",
+        "sampled_length": 333,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:48Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/replayStats-C6TwcZID.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/should-polyfill-BTOcvK4b.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/should-polyfill-BTOcvK4b.js.map",
+      "request": {
+        "elapsed_ms": 479,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "b00c423d0c72da51e5b7e76b7e1ca8139e06e6c615d48bf964e5bafff3c49ab5",
+        "sampled_length": 337,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:49Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/should-polyfill-BTOcvK4b.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/should-polyfill-CNMZG5LD.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/should-polyfill-CNMZG5LD.js.map",
+      "request": {
+        "elapsed_ms": 491,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "7582f9645464a512cfc979e88c32d88dd9ca129cdf92dda304b767afa368cf45",
+        "sampled_length": 337,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:50Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/should-polyfill-CNMZG5LD.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/suitcase.es-Dp8al1ev.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/suitcase.es-Dp8al1ev.js.map",
+      "request": {
+        "elapsed_ms": 508,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "8ad7d2edcef4c14a0c558fc6098342efd052b3b42ae0ae19e271a96398962406",
+        "sampled_length": 333,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:51Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/suitcase.es-Dp8al1ev.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/temporal-Bv-hHsQ9.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/temporal-Bv-hHsQ9.js.map",
+      "request": {
+        "elapsed_ms": 480,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "997e11ad8e2428e53ad8d544f36e9f549c107adf4c53817bece02eaaa583e4d0",
+        "sampled_length": 310,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:52Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/temporal-Bv-hHsQ9.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/tk-auth.es-CHmx5lrh.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/tk-auth.es-CHmx5lrh.js.map",
+      "request": {
+        "elapsed_ms": 481,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "3ba7f28a96ee15ad9af3be1611667c590d42f3c17db2ed0c83bc521321a4cf2c",
+        "sampled_length": 332,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:53Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/tk-auth.es-CHmx5lrh.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/tk-common-ui.es-DDw6dTBJ.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/tk-common-ui.es-DDw6dTBJ.js.map",
+      "request": {
+        "elapsed_ms": 473,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "fe3505e5b7bda8ab6b9e5f22fc6657963c62ad3a9b99560dcee7c32963bd85a5",
+        "sampled_length": 337,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:54Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/tk-common-ui.es-DDw6dTBJ.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/tk-l10n.es-DTmIU6wA.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/tk-l10n.es-DTmIU6wA.js.map",
+      "request": {
+        "elapsed_ms": 483,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "cf804acaacbfa56050876373271acdc646ceb82afcfac994603e7c13be55b4ee",
+        "sampled_length": 332,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:55Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/tk-l10n.es-DTmIU6wA.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/tslib.es6-C4pPfcjE.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/tslib.es6-C4pPfcjE.js.map",
+      "request": {
+        "elapsed_ms": 483,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "0853e8015ef88be5c9d2518ba9533a10df32f6d2e9caff74407c954c5c7410d2",
+        "sampled_length": 331,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:56Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/tslib.es6-C4pPfcjE.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/tslib.es6-NLv-gY2n-il6i-HoE.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/tslib.es6-NLv-gY2n-il6i-HoE.js.map",
+      "request": {
+        "elapsed_ms": 495,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "146ac7661be1b367cc5e4877250c887481685aacee9c713010eb5ab1f85641ef",
+        "sampled_length": 340,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:57Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/tslib.es6-NLv-gY2n-il6i-HoE.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/types-B-sczjsR.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/types-B-sczjsR.js.map",
+      "request": {
+        "elapsed_ms": 477,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "3142a2d6957f4835c0c61ce3e061e16961c350300ea4eafdccfb4328d9294662",
+        "sampled_length": 307,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:58Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/types-B-sczjsR.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/types-CV1HkpOa.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/types-CV1HkpOa.js.map",
+      "request": {
+        "elapsed_ms": 486,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "5ffd07887f083369f48f53e7f33f93b252de455fa26d00ee7b63dfc85b37f06a",
+        "sampled_length": 327,
+        "status": 404,
+        "timestamp": "2026-07-21T23:42:59Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/types-CV1HkpOa.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/types-D2v1o9VF.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/types-D2v1o9VF.js.map",
+      "request": {
+        "elapsed_ms": 484,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "05997b420cb13dbd31f1ffca373b67475efcbebb30ad17a29fe2cb7f6d489765",
+        "sampled_length": 327,
+        "status": 404,
+        "timestamp": "2026-07-21T23:43:00Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/types-D2v1o9VF.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/useMutation-DTw7LAH6.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/useMutation-DTw7LAH6.js.map",
+      "request": {
+        "elapsed_ms": 479,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "c32ff1fc6eb6e7ed6866fdbec6dee359bd0cb2bdc091173c3bffa169e32ad41f",
+        "sampled_length": 333,
+        "status": 404,
+        "timestamp": "2026-07-21T23:43:01Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/useMutation-DTw7LAH6.js.map"
+      }
+    },
+    {
+      "asset_url": "https://app.perk.com/mfe-web/assets/useNavigateToUrl-CzvJU_My.js",
+      "map_url": "https://app.perk.com/mfe-web/assets/useNavigateToUrl-CzvJU_My.js.map",
+      "request": {
+        "elapsed_ms": 498,
+        "headers": {
+          "cache-control": "public, max-age=86400",
+          "content-type": "application/xml",
+          "server": "AmazonS3",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "method": "GET",
+        "sample_sha256": "75ac841c6ec89cca1a59a06702a48ba1a3fb2a50897ffb82af8188c8ed38d641",
+        "sampled_length": 338,
+        "status": 404,
+        "timestamp": "2026-07-21T23:43:02Z",
+        "truncated": false,
+        "url": "https://app.perk.com/mfe-web/assets/useNavigateToUrl-CzvJU_My.js.map"
+      }
+    }
+  ],
+  "status_counts": {
+    "404": 49
+  }
+}

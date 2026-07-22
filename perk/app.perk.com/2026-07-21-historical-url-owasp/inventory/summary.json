@@ -1,0 +1,19 @@
+{
+  "category_url_counts_nonexclusive": {
+    "A01 Broken Access Control": 101,
+    "A02 Cryptographic Failures": 2,
+    "A03 Injection": 14,
+    "A04 Insecure Design": 30,
+    "A05 Security Misconfiguration": 14,
+    "A07 Identification and Authentication Failures": 23,
+    "A08 Software and Data Integrity Failures": 25
+  },
+  "exact_host": "app.perk.com",
+  "owasp_candidate_redacted_forms": 136,
+  "owasp_candidate_urls": 137,
+  "owasp_route_templates": 68,
+  "raw_merged_sha256": "edf97cff83587da4f6e0a26de81f6df3a680da84d999eefd7f417e86912c1c9a",
+  "sensitive_query_url_count": 2,
+  "unique_historical_urls": 152,
+  "unique_redacted_url_forms": 151
+}
